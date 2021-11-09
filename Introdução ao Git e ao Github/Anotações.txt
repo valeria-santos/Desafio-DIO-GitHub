@@ -1,0 +1,12 @@
+Link para download do Git: https://git-scm.com/
+
+
+
+Adicionar arquivos locais no GitHub: 
+git add .
+git commit -m "comentario"
+git push origin main
+
+Para verificar:
+git status
+
