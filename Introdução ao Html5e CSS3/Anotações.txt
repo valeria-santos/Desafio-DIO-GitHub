@@ -1,0 +1,50 @@
+Estrutura básica de um Html
+
+<!DOCTYPE html> (não é um elemento html)
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title></title>
+ </head>
+ <body>
+ </body>
+</html>
+
+*charset: como o navegador fará um encode dos caracteres.
+
+
+
+Semântica
+
+<section>  seção genérica de conteúdo
+<header> cabeçalho
+<article> conteúdo relevante
+<aside> conteúdo relacionado ao principal
+<footer> rodapé
+<h1>-<h6> O nível de importância na página
+
+*só pode haver um h1 por página
+
+
+Textos e Links
+
+<p>Conteúdo do artigo.</p> Usado para textos, imagens, vídeos maiores e mais densos
+<a>Link<a>
+<a href=linkedin.com...>Linkedin</a>
+<a href=mailto:...@gmail.com>E-mail</a>
+<a href=tel:(DDD)9...>Telefone</a>
+<a target="_blank">Link</a>  para abrir o link em uma nova aba
+
+
+Imagens
+
+<img>
+<img src="img/avatar.jpg"> É obrigatório, pois guarda o caminho da imagem.
+<img alt="Foto de...">  Mostra a descrição quando e imagem não é carregada
+
+
+Listas
+
+<ul> lista em que não importa a ordem dos itens
+<ol> lista ordenada
+<il> item da lista
