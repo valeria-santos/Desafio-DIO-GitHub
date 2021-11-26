@@ -1,0 +1,38 @@
+#title{
+
+    color: black;
+    text-align: center;
+}
+.subtitle{
+    align-content: center;
+}
+
+.post_title{
+    font-style: italic;
+}
+.post{
+    background: lightslategrey;
+    padding: 10px;
+    align-content: center;
+}
+
+.post_content{
+    border-color: black;
+    border-style: solid;
+    border-right: 10px;
+    border-left: 10px;
+    
+}
+
+.post_image{
+    border-radius: 50%;
+    height: 350px;
+    margin-left: 33%;
+    margin-right: 33%;
+    
+    
+}
+
+body{
+    background-color: darkseagreen;
+}
